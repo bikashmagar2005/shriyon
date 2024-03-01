@@ -15,8 +15,16 @@
             <input type="text" placeholder="Enter your first name" name="firstname"><br>
             <level>Last Name</level><br>
             <input type="text" placeholder="Enter your last name" name="lastname"><br>
-            <level>Gender:</level><br>
-            <input type="text" placeholder="Enter your Gender" name="gender"><br>
+
+            <label style="  color: rgb(231, 222, 245);
+             font-family: "Audiowide", sans-serif;
+            padding: 15px;">Gender:</label><br>
+            <select id="gender" name="gender" style="padding:7px; border-radius:10px; border:none;">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            </select><br>
+
             <level>Phone</level><br>
             <input type="number" placeholder="Enter your phone number" name="phone"><br>
             <level>Address</level><br>
@@ -34,3 +42,5 @@
     </center> 
 </body>
 </html>
+
+
